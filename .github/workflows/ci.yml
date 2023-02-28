@@ -21,7 +21,6 @@ jobs:
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
-          create-summary: true
           git-message: "chore(release): {version}\n\n[skip ci]"
           skip-ci: false
           git-user-name: github-actions[bot]
@@ -29,5 +28,7 @@ jobs:
           tag-prefix: ""
           version-file: pyproject.toml
           version-path: tool.poetry.version
-          pre-release: true
+          
+          create-summary: true
+          # pre-release: true
           preset: conventionalcommits
