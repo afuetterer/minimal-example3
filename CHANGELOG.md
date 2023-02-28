@@ -1,3 +1,5 @@
+# Changelog
+
 ### [0.1.2-rc.0](https://github.com/afuetterer/minimal-example3/compare/0.1.1...0.1.2-rc.0) (2023-02-28)
 
 
