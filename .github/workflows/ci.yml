@@ -32,5 +32,5 @@ jobs:
           create-summary: true
           preset: conventionalcommits
 
-          pre-release: true
-          pre-release-identifier: ""
+          # pre-release: true
+          # pre-release-identifier: ""
