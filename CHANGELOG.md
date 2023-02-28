@@ -1,3 +1,10 @@
+### [0.1.3-0](https://github.com/afuetterer/minimal-example3/compare/0.1.2...0.1.3-0) (2023-02-28)
+
+
+### Bug Fixes
+
+* settings ([81fc392](https://github.com/afuetterer/minimal-example3/commit/81fc3925119af33034ea90f4b3374b27a8b2d0a5))
+
 ### [0.1.2](https://github.com/afuetterer/minimal-example3/compare/0.1.2-rc.0...0.1.2) (2023-02-28)
 
 
