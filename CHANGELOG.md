@@ -1,4 +1,9 @@
-# Changelog
+### [0.1.2](https://github.com/afuetterer/minimal-example3/compare/0.1.2-rc.0...0.1.2) (2023-02-28)
+
+
+### Bug Fixes
+
+* settings ([0fe4224](https://github.com/afuetterer/minimal-example3/commit/0fe42248c216271c1b32383f546435a9aa646086))
 
 ### [0.1.2-rc.0](https://github.com/afuetterer/minimal-example3/compare/0.1.1...0.1.2-rc.0) (2023-02-28)
 
