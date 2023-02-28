@@ -30,3 +30,4 @@ jobs:
           version-file: pyproject.toml
           version-path: tool.poetry.version
           pre-release: true
+          preset: conventionalcommits
