@@ -30,5 +30,7 @@ jobs:
           version-path: tool.poetry.version
           
           create-summary: true
-          # pre-release: true
           preset: conventionalcommits
+
+          pre-release: true
+          pre-release-identifier: ""
