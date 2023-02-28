@@ -17,16 +17,14 @@ jobs:
         uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
 
       # https://github.com/TriPSs/conventional-changelog-action
-      - name: Conventional Changelog Action
+      - name: Generate changelog and git tag
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
           create-summary: true
-
           git-message: "chore(release): {version}\n\n[skip ci]"
           skip-ci: false
-
-          git-user-name: "github-actions[bot]"
+          git-user-name: github-actions[bot]
           git-user-email: "41898282+github-actions[bot]@users.noreply.github.com"
           tag-prefix: ""
           version-file: pyproject.toml
