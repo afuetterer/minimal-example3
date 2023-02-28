@@ -1,2 +1,2 @@
-def hello_world(msg: str):
+def hello_world(msg: str) -> str:
     return msg
