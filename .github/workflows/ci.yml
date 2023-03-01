@@ -29,14 +29,16 @@ jobs:
           version-file: pyproject.toml
           version-path: tool.poetry.version
           create-summary: true
-          preset: conventionalcommits
+          
+          # preset: conventionalcommits
+          config-file-path: changelog-config.js
 
           # TODO: add header # Changelog to file.
 
-      - name: Create GitHub release
-        uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
-        with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: ${{ steps.changelog.outputs.tag }}
-          body: ${{ steps.changelog.outputs.clean_changelog }}
+      # - name: Create GitHub release
+      #   uses: actions/create-release@v1
+      #   if: ${{ steps.changelog.outputs.skipped == 'false' }}
+      #   with:
+      #     tag_name: ${{ steps.changelog.outputs.tag }}
+      #     release_name: ${{ steps.changelog.outputs.tag }}
+      #     body: ${{ steps.changelog.outputs.clean_changelog }}
