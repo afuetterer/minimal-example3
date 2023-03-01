@@ -1,6 +1,6 @@
 'use strict'
-const config = require('conventional-changelog-conventionalcommits');
+const config = require('conventional-changelog-angular');
 
 module.exports = config({
-    "header": "# Changelog"
+    "header": "# Changelog\n\n",
 })
