@@ -34,10 +34,7 @@ jobs:
           version-file: pyproject.toml
           version-path: tool.poetry.version
           create-summary: true
-          
-          # preset: conventionalcommits
-          config-file-path: changelog-config.js
-
+          config-file-path: .github/changelog-config.js
           # TODO: add header # Changelog to file.
 
       # - name: Create GitHub release
